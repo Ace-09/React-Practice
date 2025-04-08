@@ -1,26 +1,19 @@
 {
-  "name": "1.portfolio",
-  "version": "1.0.0",
-  "description": "Portfolio Project",
-  "main": "index.js",
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "My Personal Portfolio website",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ace-09/React-Practice.git"
   },
   "author": "Nimish Lohumi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ace-09/React-Practice/issues"
-  },
-  "homepage": "https://github.com/Ace-09/React-Practice#readme",
   "devDependencies": {
-    "parcel": "^2.14.1"
+    "parcel": "^2.14.4"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
